@@ -201,12 +201,12 @@ function ConnQty({ qty }) {
 }
 
 const sortDescFirst = true;
-const hiddenColumnsOrigin = ['id'];
+const hiddenColumnsOrigin = ['id', 'process'];
 const columnsOrigin = [
   { accessor: 'id', show: false },
-  { Header: 'c_type', accessor: 'type' },
-  { Header: 'c_process', accessor: 'process' },
+  { Header: 'c_process', accessor: 'process', show: false },
   { Header: 'c_host', accessor: 'host' },
+  { Header: 'c_sni', accessor: 'sniffHost' },
   { Header: 'c_rule', accessor: 'rule' },
   { Header: 'c_chains', accessor: 'chains' },
   { Header: 'c_time', accessor: 'start' },
@@ -216,7 +216,7 @@ const columnsOrigin = [
   { Header: 'c_ul', accessor: 'upload', sortDescFirst },
   { Header: 'c_source', accessor: 'source' },
   { Header: 'c_destination_ip', accessor: 'destinationIP' },
-  { Header: 'c_sni', accessor: 'sniffHost' },
+  { Header: 'c_type', accessor: 'type' },
   { Header: 'c_ctrl', accessor: 'ctrl' },
 ];
 

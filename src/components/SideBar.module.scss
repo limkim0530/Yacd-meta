@@ -1,7 +1,9 @@
 @import '~/styles/utils/custom-media';
 
 .root {
-  background: var(--color-bg-sidebar);
+  // background: var(--color-bg-sidebar);
+  box-sizing: content-box;
+  padding: 8px;
   min-width: 150px;
   position: relative;
 }
@@ -69,6 +71,9 @@
 .rowActive {
   background: var(--color-sb-active-row-bg);
   color: var(--color-sb-active-row-font);
+  border-top-left-radius: 1000px;
+  border-radius: 1000px;
+  padding: 8px 20px;
 
   @media (max-width: 768px) {
     background: none;

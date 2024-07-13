@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: '_Twemoji Mozilla';
-  src: url('../../assets/Twemoji_Mozilla.ttf') format('truetype');
+  src: url('../../assets/Twemoji_Mozilla.woff2') format('truetype');
 }
 
 .relative {
@@ -99,16 +99,16 @@ body {
 @mixin dark {
   --color-background: #202020;
   --color-background2: rgba(32, 32, 32, 0.3);
-  --color-bg-chart: #24292f;
-  --color-bg-card: #24292f;
-  --color-focus-blue: #306081;
+  --color-bg-chart: #2d2d2d;
+  --color-bg-card: #2d2d2d;
+  --color-focus-blue: #1a73e8;
   --btn-bg: #24292f;
   --color-proxy-border: #00000000;
-  --card-hover-border-lightness: #306081;
+  --card-hover-border-lightness: 30%;
   --color-text: #ddd;
   --color-text-secondary: #ccc;
   --color-text-highlight: #fff;
-  --color-bg-sidebar: #24292f;
+  --color-bg-sidebar: #2d2d30;
   --color-sb-active-row-bg: #30363d;
   --color-sb-active-row-font: #eee;
   --color-input-bg: #2d2d30;
@@ -119,7 +119,7 @@ body {
   --color-separator: #333;
   --color-btn-bg: #232323;
   --color-btn-fg: #bebebe;
-  --color-bg-proxy: #202020;
+  --color-bg-proxy: #303030;
   --color-row-odd: #282828;
   --bg-log-info-tag: #454545;
   --bg-modal: #1f1f20;
